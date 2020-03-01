@@ -1,0 +1,66 @@
+.home{
+  color: white;
+  text-align: center;
+  background:url("../images/image14.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  width:100%;
+}
+
+#body{
+  background:url("../images/sdd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1900px;
+  width:100%;
+}
+
+#menu{
+  color:gray;
+}
+
+/*menu.html*/
+h1{
+  color: red;
+  text-align: center;
+}
+h3, a{
+  color: gray;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+/*  html, body {
+  color: #555860;
+  background-color: black;
+}*/
+
+
+.header{
+  text-align: left;
+}
+
+
+#large{
+  color:gray;
+  text-align: center;
+
+}
+
+#medium{
+  color:gray;
+  text-align: center;
+
+}
+
+#small{
+  color:gray;
+  text-align: center;
+
+}
+
+.size{
+  color: black;
+}
