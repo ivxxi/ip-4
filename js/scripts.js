@@ -96,7 +96,7 @@ $(function () {
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
         $('.deliver').show(1000);
-        $('.delivernot').show(1000);
+        $('.pickup').show(1000);
 
         $('#list').text(" ");
         $("#list").append("<br>" + "Size :   "
@@ -113,13 +113,13 @@ $(function () {
         $('#list').slideUp();
         $('.summary').text("Provide location details").slideDown();
         $('.deliver').hide(1000);
-        $('.delivernot').hide(1000);
+        $('.pickup').hide(1000);
         $('.cdata-overlay').slideDown();
     });
 
 
     //Pick Up
-    $(".delivernot").click(function () {
+    $(".pickup").click(function () {
 
     });
 
