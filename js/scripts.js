@@ -118,8 +118,14 @@ $(function () {
 
 
     $(".pickup").click(function () {
-
+      alert("pizza will be ready for pickup in 20 minutes");
     });
+
+    $("#toDeliver").click(function () {
+      alert("pizza will be delivered in 30 minutes");
+    });
+
+
 
 
     $(function () {
