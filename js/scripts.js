@@ -1,13 +1,12 @@
 $(function () {
     $('.summary').hide();
-    $('.cdata-overlay').hide();
+    $('.summary-data').hide();
 
     $("#checkout").click(function () {
         var size = $("#size option:selected").val();
         var crust = $("#crust option:selected").val();
         var topping = $("#toppings option:selected").val();
         var number = $("#number").val();
-        console.log(size);
 
 
         var order = (s, c, t, n, total) => {
@@ -92,7 +91,7 @@ $(function () {
 
 
         $('.summary').slideDown(2000);
-        $('.cdata-overlay').slideUp();
+        $('.summary-data').slideUp();
         $('#list').slideDown();
         $('.deliver').show(1000);
         $('.pickup').show(1000);
@@ -113,7 +112,7 @@ $(function () {
         $('.summary').text("provide the following details").slideDown();
         $('.deliver').hide(1000);
         $('.pickup').hide(1000);
-        $('.cdata-overlay').slideDown();
+        $('.summary-data').slideDown();
     });
 
 

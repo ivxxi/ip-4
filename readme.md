@@ -1,27 +1,25 @@
 # {Pizza place}
+[https://ivxxi.github.io/ip-4/]
 #### pizza ordering website, Date of current version
 #### By **{crystal alice}**
 ## Description
-the following project is a pizza ordering website. select the size of the pizza, preffered crust type and the toppings wanted
+the following project is a pizza ordering website. select the size of the pizza, preferred crust type and the toppings wanted
 
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Select link
+* run in browser
 ## Known Bugs
-there are currently no known bugs
+angular model not completely working
+modal body not closing
 ## Technologies Used
-html
-css
-bootstrap
-javascript
-jquery
-angularjs
+1. html
+2. css
+3. bootstrap
+4. javascript
+5. jquery
+6. angularjs
 ## Support and contact details
 crystalalice21@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT license*
 Copyright (c) 2020 **{crystal alice}**

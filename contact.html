@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<body>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+<div id="contact-us">
+<div class="form">
+  <div class="palace">
+    <header>
+        <h2>contact us</h2>
+    </header>
+
+     <form id="contact-form"  name="cForm" onsubmit="validation()" method="POST">
+       <div class="row">
+       <div class="col-md-6">
+         <div class="form-group">
+          <input class="form-control" id="name" type="text" placeholder="Name"name="fname" required>
+        </div>
+      </div>
+
+        <div class="col-md-6">
+        <div class="form-group">
+            <input  class="form-control"  id="email" type="email" placeholder="Email" name="fmail" required>
+        </div>
+        </div>
+      </div>
+
+
+        <label for="ftext"></label>
+        <div class="row">
+          <div class="col-md-12">
+          <div class="form-group">
+        <textarea class="form-control"  id="text" rows="10"  cols="100" placeholder="Your message here..."></textarea>
+      </div>
+    </div>
+
+        <div class="row">
+        <div class="col-md-12">
+      <button type="submit"  class="btn btn-danger" value="SUBMIT">Send a message</button>
+      </div>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+<div class="foot">
+    crystalalice21@gmail.com <br> 2020
+</div>
+
+
+<script>
+
+  function validation(){
+      var name=document.getElementById("name").value;
+      var email=document.getElementById("mail").value;
+
+        confirm( name +" "+ "we have received your message.Thank you for reaching out to us");
+  }
+
+</script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</body>
+</html>
