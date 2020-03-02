@@ -1,21 +1,21 @@
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
-//Get inputs
+
     $("#checkout").click(function () {
-        let size = $("#size option:selected").val();
-        let crust = $("#crust option:selected").val();
-        let topping = $("#toppings option:selected").val();
-        let number = $("#number").val();
+        var size = $("#size option:selected").val();
+        var crust = $("#crust option:selected").val();
+        var topping = $("#toppings option:selected").val();
+        var number = $("#number").val();
         console.log(size);
 
-        //Function order
-        let order = (s, c, t, n, total) => {
+
+        var order = (s, c, t, n, total) => {
             return {s, c, t, n, total};
         };
 
-        //check price
-        let price, totalPrice;
+
+        var price, totalPrice;
           switch (size) {
             case size = "small":
               price = 300;
@@ -84,14 +84,13 @@ $(function () {
 
       }
 
-        //Execute order function
-        let newOrder = order(size, crust, topping, number, totalPrice);
-        console.log(newOrder); // test func
 
-        //create a new object
-        // let myOrder = JSON.stringify(JSON.parse(newOrder));
 
-        //Write to the order
+        var newOrder = order(size, crust, topping, number, totalPrice);
+        console.log(newOrder);
+
+
+
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
@@ -107,7 +106,7 @@ $(function () {
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     });
 
-    //Deliver
+
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
@@ -118,12 +117,12 @@ $(function () {
     });
 
 
-    //Pick Up
+
     $(".pickup").click(function () {
 
     });
 
-    //Scrollify
+
     $(function () {
         $.scrollify.move('#sum-order');
     });
