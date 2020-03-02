@@ -20,5 +20,5 @@ angular model not completely working
 ## Support and contact details
 crystalalice21@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT license*
 Copyright (c) 2020 **{crystal alice}**
