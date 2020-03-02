@@ -120,6 +120,12 @@ p{
   height: 900px;
   width:100%;
 }
+
+.order-summary{
+  display: none;
+}
+
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
