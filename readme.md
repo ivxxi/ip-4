@@ -10,6 +10,7 @@ the following project is a pizza ordering website. select the size of the pizza,
 * run in browser
 ## Known Bugs
 angular model not completely working
+modal body not closing
 ## Technologies Used
 1. html
 2. css
