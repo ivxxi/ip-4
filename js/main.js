@@ -26,7 +26,7 @@ window.onclick = function(event) {
 }
 
 
-// Get the modal
+// Get the modal for meduum
 var modal2 = document.getElementById("myModal2");
 
 // Get the button that opens the modal
@@ -52,7 +52,7 @@ window.onclick = function(event) {
   }
 }
 
-// Get the modal
+// Get the modal large
 var modal3 = document.getElementById("myModal3");
 
 // Get the button that opens the modal
