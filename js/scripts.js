@@ -58,28 +58,28 @@ $(function () {
         }
       switch (topping) {
           case topping = "bacon":
-              totalPrice = totalPrice + 80;
+              totalPrice = totalPrice + 100;
               break;
           case topping = "pineapple":
-              totalPrice = totalPrice + 80;
+              totalPrice = totalPrice + 100;
               break;
           case topping = "mushroom":
-              totalPrice = totalPrice + 80;
+              totalPrice = totalPrice + 100;
               break;
           case topping = "chicken":
-              totalPrice = totalPrice + 80;
+              totalPrice = totalPrice + 100;
               break;
           case topping = "Peperoni":
-              totalPrice = totalPrice + 120;
+              totalPrice = totalPrice + 150;
               break;
           case topping = "olives":
-              totalPrice = totalPrice + 120;
+              totalPrice = totalPrice + 150;
               break;
           case topping = "pepper":
-              totalPrice = totalPrice + 120;
+              totalPrice = totalPrice + 150;
               break;
           case topping = "cheese":
-              totalPrice = totalPrice + 120;
+              totalPrice = totalPrice + 150;
               break;
 
       }
@@ -111,7 +111,7 @@ $(function () {
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
-        $('.summary').text("Provide location details").slideDown();
+        $('.summary').text("provide the following details").slideDown();
         $('.deliver').hide(1000);
         $('.pickup').hide(1000);
         $('.cdata-overlay').slideDown();
