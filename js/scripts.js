@@ -86,8 +86,6 @@ $(function () {
 
 
         var newOrder = order(size, crust, topping, number, totalPrice);
-        console.log(newOrder);
-
 
 
         $('.summary').slideDown(2000);
@@ -125,10 +123,5 @@ $(function () {
     $(".pickup").click(function () {
       alert("pizza will be ready for pickup in 20 minutes")
 
-    });
-
-
-    $(function () {
-        $.scrollify.move('#sum-order');
     });
 });
